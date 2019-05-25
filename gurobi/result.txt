@@ -1,0 +1,1 @@
+[{'course': 'CMPE352.01', 'id': '3'}, {'course': 'CMPE478.01', 'id': '3'}, {'course': 'CMPE352.01', 'id': '2'}, {'course': 'CMPE478.01', 'id': '2'}, {'course': 'CMPE150.01', 'id': '4'}, {'course': 'CMPE362.01', 'id': '4'}]
