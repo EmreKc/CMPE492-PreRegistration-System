@@ -22,6 +22,7 @@
 
 ## gurobi
 ```sh
+// replace url variables in getCourses.py and postCourses.py with working API url
 > bash solver.sh
 ```
     
