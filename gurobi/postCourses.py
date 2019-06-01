@@ -11,7 +11,7 @@ for r in result:
     rr.append({"id": r["id"], "course": r["course"]})
 # print(rr)
 
-url = "http://35.158.76.57/course/saveCourses"
+url = "http://127.0.0.1:8000/course/saveCourses"
 rs = requests.post(url, json={'result': result})
 
 print("Solutions saved to database")

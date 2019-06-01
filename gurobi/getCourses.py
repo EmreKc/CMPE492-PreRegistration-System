@@ -1,6 +1,6 @@
 import requests
 
-url = "http://35.158.76.57/course/solver"
+url = "http://127.0.0.1:8000/course/solver"
 r = requests.get(url)
 print("Courses taken")
 response = r.json()

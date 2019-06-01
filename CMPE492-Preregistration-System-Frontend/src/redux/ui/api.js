@@ -31,7 +31,7 @@ class api {
     return httpService.fetch({
       path: "course/listCourses",
       method: "GET",
-      sendToken: false
+      sendToken: true
     });
   };
   
@@ -39,7 +39,7 @@ class api {
     return httpService.fetch({
       path: "course/selectedCourses",
       method: "GET",
-      sendToken: false
+      sendToken: true
     });
   };
 
@@ -47,7 +47,7 @@ class api {
     return httpService.fetch({
       path: "course/takenCourses",
       method: "GET",
-      sendToken: false
+      sendToken: true
     });
   };
 doPostLessons = (selectedLessons) => {
