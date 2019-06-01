@@ -1,5 +1,5 @@
 
-    python -m venv venv (python3)
+    python3 -m venv venv (python3)
 
     source venv/bin/activate (Linux)
     
