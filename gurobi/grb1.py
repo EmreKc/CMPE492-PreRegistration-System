@@ -70,7 +70,7 @@ try:
 
     result = list()
     for v in model.getVars():
-        print('%s %g' % (v.varName, v.x))
+        # print('%s %g' % (v.varName, v.x))
         if v.x == 1:
             dc = dict()
             id_ = re.search("(\d+)\w+", v.varName).group(1)
